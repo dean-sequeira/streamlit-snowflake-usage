@@ -1,5 +1,5 @@
 # streamlit-snowflake-usage
-Welcome to the Streamlit Snowflake Usage App that utilizes the Facebook Prophet library to forecast the credit usage of Snowflake. 
+Welcome to the Snowflake Credit Usage Forecast App that utilizes the Streamlit and Facebook Prophet library to forecast the credit usage of Snowflake. 
 By analysing the historical Snowflake credit usage, this app provides a forecast of the credit usage for the next six months and estimated costs.
 
 Packages used:
