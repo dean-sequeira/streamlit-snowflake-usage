@@ -3,7 +3,7 @@ from datetime import datetime
 from prophet import Prophet
 
 
-def forecast_credit_usage(df: pd.DataFrame, forecast_periods: int):
+def create_forecast(df: pd.DataFrame, forecast_periods: int):
     """Forecast GMV for each region and each day
     Args:
         df: input dataframe

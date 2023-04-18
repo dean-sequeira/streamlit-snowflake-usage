@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 from db import SnowflakeConnection
-from forecast import forecast_credit_usage
+from forecast import create_forecast
 import pandas as pd
 import datetime
 
@@ -82,7 +82,7 @@ if submit_button:
         # set ds to datetime
         credit_usage_over_time['ds'] = pd.to_datetime(credit_usage_over_time['ds'])
         # forecast
-        forecast_df = forecast_credit_usage(credit_usage_over_time, forecast_periods)
+        forecast_df = create_forecast(credit_usage_over_time, forecast_periods)
         # set ds to datetime
         forecast_df['ds'] = pd.to_datetime(forecast_df['ds'])
         # left join credit usage over time and forecast on ds
