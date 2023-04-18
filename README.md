@@ -1,2 +1,22 @@
 # streamlit-snowflake-usage
-Snowflake usage stats using Streamlit 
+Welcome to the Streamlit Snowflake Usage App that utilizes the Facebook Prophet library to forecast the credit usage of Snowflake. 
+By analysing the historical Snowflake credit usage, this app provides a forecast of the credit usage for the next six months and estimated costs.
+
+Packages used:
+- Streamlit
+- Pandas
+- Snowflake Connector
+- Facebook Prophet
+- Plotly
+
+## How to run the app
+1. Clone the repository
+2. Install the required libraries
+3. Run the app using the command `streamlit run app.py`
+
+## How to use the app
+1. Enter the Snowflake account name
+2. Enter the Snowflake user name
+3. Enter the Snowflake password
+4. Enter the Snowflake role name that has access to `snowflake.account_usage` tables
+5. Execute 🚀
