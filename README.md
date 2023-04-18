@@ -12,7 +12,7 @@ Packages used:
 ## How to run the app
 1. Clone the repository
 2. Install the required libraries
-3. Run the app using the command `streamlit run app.py`
+3. Run the app using the command `streamlit run main.py`
 
 ## How to use the app
 1. Enter the Snowflake account name
