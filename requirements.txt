@@ -1,0 +1,5 @@
+streamlit==1.21.0
+snowflake-connector-python[pandas]==3.0.2
+plotly==5.14.1
+pandas~=1.4.4
+prophet==1.1.2
