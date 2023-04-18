@@ -3,11 +3,11 @@ Welcome to the Streamlit Snowflake Usage App that utilizes the Facebook Prophet 
 By analysing the historical Snowflake credit usage, this app provides a forecast of the credit usage for the next six months and estimated costs.
 
 Packages used:
-- Streamlit
+- [Streamlit](https://streamlit.io)
+- [Snowflake Connector](https://docs.snowflake.com/developer-guide/python-connector/python-connector)
+- [Facebook Prophet](https://facebook.github.io/prophet/)
+- [Plotly](https://plotly.com)
 - Pandas
-- Snowflake Connector
-- Facebook Prophet
-- Plotly
 
 ## How to run the app
 1. Clone the repository
