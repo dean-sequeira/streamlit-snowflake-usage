@@ -26,8 +26,8 @@ class SnowflakeConnection:
         """
         Executes snowflake sql config and returns result as data as dataframe.
         Example of parameters
-        {"order_date": '2022-07-13', "customer_region": 1} can be used to reference variable in sql config %(order_date)s
-         and %(customer_region)s.
+        {"date": '2022-07-13', "user": 1234} can be used to reference variable in sql config %(date)s
+         and %(user)s.
         :param sql: sql config to be executed
         :param parameters: named parameters used in the sql config (defaulted as None)
         :return: dataframe
