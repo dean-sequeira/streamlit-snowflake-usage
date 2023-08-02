@@ -14,6 +14,8 @@ Packages used:
 2. Install the required libraries
 3. Run the app using the command `streamlit run main.py`
 
+Or check it out at [Streamlit-Snowflake-Usage](https://dean-sequeira-streamlit-snowflake-usage-main-f6c5k4.streamlit.app/) hosted on Streamlit's Community Cloud. 🎈
+
 ## How to use the app
 1. Enter the Snowflake account name
 2. Enter the Snowflake user name
